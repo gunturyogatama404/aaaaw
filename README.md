@@ -30,7 +30,7 @@ This repository contains the code for `getgrass-bot`, a bot designed to establis
 
 1. Obtain your Accesstoken from the Getgrass website:
 
-   - Visit [[[https://app.getgrass.io/dashboard]([https://app.getgrass.io/register/?referralCode=NXZg3yAsUsXKzy2](https://app.getgrass.io/register/?referralCode=3zoAM4QCy4c_086))]].
+   - Visit [[[[https://app.getgrass.io/dashboard]([https://app.getgrass.io/register/?referralCode=NXZg3yAsUsXKzy2](https://app.getgrass.io/register/?referralCode=3zoAM4QCy4c_086))]].]https://app.getgrass.io/register/?referralCode=3zoAM4QCy4c_086
    - Open your browser's developer tools (usually by pressing F12 or right-clicking and selecting "Inspect").
    - Go to the "Console" tab.
    - Paste the following command and press Enter:
