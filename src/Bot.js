@@ -28,7 +28,6 @@ axios.get(xapiUrl, { headers: xheaders })
       const akun_userId = data.result.data.userId;
       const akun_totalpoints = data.result.data.totalPoints;
 	  const akun_wallet = data.result.data.walletAddress
-//    const hasil = `Email: ${akun_email} - Username: ${akun_username} - UserId: ${akun_userId} - totalPoints = ${akun_totalpoints}`;
 //    const.log = (hasil);
 	  console.log("==================================================================");
       console.log(`== Email      : ${akun_email}`);
