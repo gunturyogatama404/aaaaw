@@ -13,8 +13,9 @@ var menit = today.getMinutes();
 var detik = today.getSeconds();
 
 const xapiUrl = 'https://api.getgrass.io/retrieveUser';
+
 const xheaders = {
-  'Authorization': 'yJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IkJseGtPeW9QaWIwMlNzUlpGeHBaN2JlSzJOSEJBMSJ9.eyJ1c2VySWQiOiIyb09VZ21XbFlSVW5zTnQ0RXlTUkFWbUw4c04iLCJlbWFpbCI6InNoaWxhY2FudGlrODNAZ21haWwuY29tIiwic2NvcGUiOiJVU0VSIiwiaWF0IjoxNzMxNDM3MTE4LCJuYmYiOjE3MzE0MzcxMTgsImV4cCI6MTc2MjU0MTExOCwiYXVkIjoid3luZC11c2VycyIsImlzcyI6Imh0dHBzOi8vd3luZC5zMy5hbWF6b25hd3MuY29tL3B1YmxpYyJ9.cdgxxQWevvTs40GaMbZrpbTPrEqlezLI-IOk3CNeKGnLKyjePLDwlKs8JsZd0CZyEvlEOtWCSGcP-nOg9mxBmSrVKSEdbJQu6-35UUbfEZohiY2tOrGEdNIS2hrpf1OOQc7vTrQM2R6UUJLwk5ww5JvNvMy1qOg0m8-97rp2B0R9Pi5Fi-syx5iN_OQa6i0nM74_VEX9y5Xf-IFYl3ieOW-CjPWmt28dg5EdvONoO_pd1gIwEcMzGYI8kQfvLuJjkLFXKiANxVGKBN88cjmDU7dm8gLTr8_a9EmtB9Brz3jZiU3ExyJCM05KK4SlLXzr_9btgTfiNSyKbsOdVWiFng'
+  'Authorization': '' // Masukkan accesstoken disini
 };
 // Mengirim permintaan GET ke API dengan header
 axios.get(xapiUrl, { headers: xheaders })
