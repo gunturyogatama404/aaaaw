@@ -30,13 +30,13 @@ axios.get(xapiUrl, { headers: xheaders })
 	  const akun_wallet = data.result.data.walletAddress
 //    const hasil = `Email: ${akun_email} - Username: ${akun_username} - UserId: ${akun_userId} - totalPoints = ${akun_totalpoints}`;
 //    const.log = (hasil);
-	  console.log("\n==================================================================");
+	  console.log("==================================================================");
       console.log(`== Email      : ${akun_email}`);
 	  console.log(`== UserName   : ${akun_username}`);
 	  console.log(`== Uid        : ${akun_userId}`);
 	  console.log(`== Total poin : ${akun_totalpoints}`);
 	  console.log(`== Wallet     : ${akun_wallet}`);
-	  console.log("==================================================================\n");
+	  console.log("==================================================================");
 
       // Menyimpan hasil ke file.txt dan menghapus isi sebelumnya
       fs.writeFileSync('uid.txt', akun_userId, 'utf8');
