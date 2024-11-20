@@ -2,9 +2,7 @@ require('colors');
 const axios = require('axios');
 const fs = require('fs');
 
-const PROXY_SOURCES = {
-  'SERVER': 'https://linkserver.txt',
-};
+const PROXY_SOURCES = {};
 
 async function fetchProxies(url) {
   try {
